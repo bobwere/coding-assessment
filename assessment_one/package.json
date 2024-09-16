@@ -1,0 +1,20 @@
+{
+  "name": "assessment_one",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+		"start:dev": "npx nodemon src/index.ts",
+		"dev": "ts-node src/index.ts",
+		"test": "ts-node tests/index.test.ts"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "devDependencies": {
+    "@types/node": "^22.5.5",
+    "nodemon": "^3.1.4",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.6.2"
+  }
+}
